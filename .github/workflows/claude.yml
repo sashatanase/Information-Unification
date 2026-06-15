@@ -12,12 +12,17 @@ on:
 
 jobs:
   claude:
-    # Only run when "@claude" is mentioned
+    # Run only when "@claude" is mentioned AND the trigger is the repo owner.
+    # The owner guard matters here because command execution (Bash) is enabled
+    # below and this is a public repo — it stops strangers from running tools.
     if: |
-      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
-      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
-      (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
-      (github.event_name == 'issues' && (contains(github.event.issue.body, '@claude') || contains(github.event.issue.title, '@claude')))
+      (
+        (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
+        (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
+        (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
+        (github.event_name == 'issues' && (contains(github.event.issue.body, '@claude') || contains(github.event.issue.title, '@claude')))
+      ) &&
+      github.event.sender.login == github.repository_owner
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -31,11 +36,16 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Install PDF tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends pandoc wkhtmltopdf
+
       - name: Run Claude Code
         uses: anthropics/claude-code-action@v1
         with:
-          # Uses your Claude subscription. Generate with `claude setup-token`
-          # and store it as a repo secret named CLAUDE_CODE_OAUTH_TOKEN.
-          # To use a pay-as-you-go API key instead, replace the line below with:
-          #   anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Allow command execution so Claude can render PDFs (pandoc / wkhtmltopdf),
+          # run git, and use Node/Python in the runner. Combined with the owner-only
+          # trigger guard above.
+          claude_args: "--allowedTools Bash,Edit,Write,Read"
