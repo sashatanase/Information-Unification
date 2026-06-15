@@ -1,6 +1,7 @@
 ---
 name: Task
 about: Default issue template for the personal brand board
+title: "NN · [Area] "
 labels: ''
 assignees: ''
 ---
