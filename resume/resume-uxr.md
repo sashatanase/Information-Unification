@@ -1,8 +1,8 @@
 # Sasha (Tanase) Luca
 
-**Senior UX Researcher** — Discovery, Research Ops & Developer Experience
+**Senior UX Researcher** · Discovery, Research Ops & Developer Experience
 
-[LinkedIn](https://www.linkedin.com/in/sasha-tanase-luca/) · [Website](https://sasha.web3ux.org) · [Twitter / X](https://x.com/sasha_tanase) · sasha@web3ux.org
+[LinkedIn](https://www.linkedin.com/in/sasha-tanase-luca/) · [Website](https://sasha.web3ux.org) · [Twitter / X](https://x.com/sasha_tanase)  
 
 > This is the canonical résumé content. The resume PDF/DOCX, website, LinkedIn, and GitHub
 > profile should all match what's here. Update this file first, then propagate.
