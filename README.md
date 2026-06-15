@@ -1,4 +1,4 @@
-# Website-Sasha — Profile & Resume Sync Tracker
+# Website-Sasha | Profile & Resume Sync Tracker
 
 Tracking issue board for keeping every public-facing asset consistent:
 **Resume (PDF/DOCX) · LinkedIn · GitHub (Resume-2026) · Website (sasha.web3ux.org)**.
