@@ -1,0 +1,42 @@
+name: Task
+description: A tracked change for resume / website / profile consistency
+title: "[Area] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "🔍 Problem identified"
+      description: What's wrong or missing, and where.
+    validations:
+      required: true
+  - type: textarea
+    id: solutions
+    attributes:
+      label: "💡 Proposed solution(s)"
+      description: One or more options — bullet them.
+      value: |
+        -
+        -
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: "📈 Impact"
+      description: Why it matters — who it affects and what improves.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: "🏷️ Type"
+      options:
+        - UX
+        - UI
+        - Content
+        - Research
+        - Ops
+        - Technical
+    validations:
+      required: true
