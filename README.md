@@ -1,5 +1,7 @@
 # Website-Sasha — Personal Brand Board
 
+[LinkedIn](https://www.linkedin.com/in/sasha-tanase-luca/) · [Website](https://sasha.web3ux.org) · [GitHub](https://github.com/sashatanase)
+
 The control center for keeping Sasha (Tanase) Luca's public-facing presence accurate,
 consistent, and current. Work is tracked here as issues; the repo also holds shared
 references — the issue template and the canonical facts — that those issues point to.
