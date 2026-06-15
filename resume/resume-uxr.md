@@ -24,12 +24,17 @@ Repository Management, AI-assisted Research Workflows
 
 ## Experience
 
-### Thesis · UX Research & Product Design Lead
+### Thesis · UX Research Ops/Manager 
 **Apr 2021 · Jul 2025 · Remote**
 
 Thesis is a web3 venture studio that builds and incubates Bitcoin & Ethereum products. I led
 research and product design continuously across its portfolio, moving with the studio from one
 product to the next.
+
+- Led research focused on PMF across Mezo Network, Acre, and the BitcoinFi Accelerator, including discovery, segmentation, and value-prop validation.
+- Guided product teams with actionable insights that shaped roadmap priorities.
+- Built and maintained the company-wide research repository, serving as the connective tissue between contracting researchers and internal teams.
+- Ran JTBD analyses, PMF surveys and interviews, and iterative discovery to identify high-fit user segments.
 
 Thesis (venture studio)
 
