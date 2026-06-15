@@ -10,4 +10,4 @@ Canonical decisions (source of truth):
 - **Web3UX:** Apr 2022 – Present, sole owner
 - **LinkedIn URL:** https://www.linkedin.com/in/sasha-tanase-luca/
 
-See the **Issues** tab for the task board.
+See the **Issues** tab for the task board. Every issue follows a shared structure — see [TASK_TEMPLATE.md](TASK_TEMPLATE.md) for what each section means.
