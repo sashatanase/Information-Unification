@@ -1,4 +1,4 @@
-# Information Unification across all medium
+# Information Unification
 
 _Personal brand board — one source of truth across resume, website, LinkedIn, and GitHub._
 
