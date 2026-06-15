@@ -1,4 +1,6 @@
-# Website-Sasha — Personal Brand Board
+# Information Unification across all medium
+
+_Personal brand board — one source of truth across resume, website, LinkedIn, and GitHub._
 
 [LinkedIn](https://www.linkedin.com/in/sasha-tanase-luca/) · [Website](https://sasha.web3ux.org) · [GitHub](https://github.com/sashatanase)
 
