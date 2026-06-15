@@ -1,6 +1,6 @@
 # Sasha (Tanase) Luca
 
-**Senior UX Researcher** — Discovery, Research Ops & Developer Experience
+**Senior UX Researcher** · Discovery, Research Ops & Developer Experience
 
 [LinkedIn](https://www.linkedin.com/in/sasha-tanase-luca/) · [Website](https://sasha.web3ux.org) · [Twitter / X](https://x.com/sasha_tanase) · sasha@web3ux.org
 
@@ -24,39 +24,52 @@ Repository Management, AI-assisted Research Workflows
 
 ## Experience
 
-### Thesis — UX Research & Product Design Lead
-**Apr 2021 – Jul 2025 · Remote**
+### Thesis · UX Research & Product Design Lead
+**Apr 2021 · Jul 2025 · Remote**
 
 Thesis is a web3 venture studio that builds and incubates Bitcoin & Ethereum products. I led
 research and product design continuously across its portfolio, moving with the studio from one
 product to the next.
 
-#### Mezo — UX Research Manager & Product Strategy · 2024–2025
-- Led PMF-focused research across discovery, segmentation, and value-proposition validation — pinpointed the exact segment that responded to Mezo Borrow and invalidated lower-fit ones, concentrating effort on the top 35–40% of likely adopters.
-- Partnered with the PMs on Mezo Borrow and Onboarding to translate findings into roadmap decisions, helping elevate Borrow to the flagship product driving most early engagement within two quarters.
-- Built a centralized insight repository as the company's single source of truth, supporting 15+ stakeholders across Product, Design, Engineering, and Marketing.
-- Ran Jobs-to-be-Done interviews and PMF surveys that aligned Product and Marketing on the target user, contributing to a 20% uplift in qualified traffic and early-stage conversion.
+Thesis (venture studio)
 
-#### Threshold Network — UX Research & Design Lead · 2021–2024
+├── Mezo Network · 2024–2025
+
+├── Threshold Network · 2021–2024
+
+└── Keep Network · 2021
+
+---
+
+#### ├── Mezo · UX Research Manager & Product Strategy · 2024–2025
+
+- Led PMF-focused research across discovery, segmentation, and value-proposition validation — pinpointed the exact segment that responded to Mezo Borrow and invalidated lower-fit ones, concentrating effort on the top 35–40% of likely adopters.
+- Partnered with PMs on Mezo Borrow and Onboarding to translate findings into roadmap decisions, helping elevate Borrow to the flagship product driving most early engagement within two quarters.
+- Built a centralized insight repository as the company's single source of truth, supporting 15+ stakeholders across Product, Design, Engineering, and Marketing.
+- Ran JTBD interviews and PMF surveys that aligned Product and Marketing on the target user, contributing to a 20% uplift in qualified traffic and early-stage conversion.
+
+#### ├── Threshold Network · UX Research & Design Lead · 2021–2024
+
 - Led post-merger discovery and stakeholder alignment after the Keep + NuCypher merge — produced Brand Personality Guidelines, Target User Profiles, and validated hypotheses that minimized roadmap rework.
-- Conducted deep research into Threshold's core audience (Bitcoin holders exposed to DeFi), validating risk tolerance, yield expectations, and trust barriers; insights drove early adoption of staking and bridging and growth in Total Value Locked (TVL).
+- Conducted deep research into Threshold's core audience (Bitcoin holders exposed to DeFi), validating risk tolerance, yield expectations, and trust barriers; insights drove early adoption of staking and bridging and growth in TVL.
 - Owned end-to-end research and UX for the marketing website: segmented IA, user flows, wireframes, three rounds of usability testing → 30% improvement in first-time task success and a 22% lift in product engagement from website entry points.
 - Led discovery and delivery for the Network Dashboard (onboarding, legacy stake migration, node-operator flows) → ~20% better onboarding completion and ~16% faster time-to-first-stake.
 - Owned discovery and iteration for the tBTC bridge v2 → two validated iterations, ~18% higher bridge-completion rates.
 - Created a diary-study + interview methodology for Node Operators that cut setup-related issues ~30% and improved operator-reported clarity.
 
-#### Keep Network — UX Research & Design Lead · 2021
+#### └── Keep Network · UX Research & Design Lead · 2021
+
 - Ran deep discovery on Node Operator behavior, uncovering a new high-value Staking Providers (B2B) segment → 15% increase in active Node Operators and 30% fewer setup drop-offs.
 - Led end-to-end creation of Coverage Pools (first of its kind in Ethereum DeFi, pre-Aave) — locked 33% of total supply; 87% of test participants accurately recalled the full 3-step flow.
 
 _Also contributed research to **Acre** (Bitcoin liquid staking) and the **BitcoinFi Accelerator**._
 
-### Web3UX User Research Panel — Co-founder & Sole Owner
+### Web3UX User Research Panel · Co-founder & Sole Owner
 **Apr 2022 – Present**
 
 - Co-founded Web3UX, now the sole owner — a user testing platform built specifically for web3 native users. Created to solve a core problem in decentralized product development: access to the right research participants. The platform connected web3 projects with real users for usability testing, discovery research, and behavioral studies.
 
-### Selfkey / KYC-chain — UX Researcher & Design Lead
+### Selfkey / KYC-chain · UX Researcher & Design Lead
 **Jul 2020 – Apr 2021**
 
 - Conducted User Research Interviews across both explorative and generative phases, using qualitative and quantitative methods.
@@ -64,7 +77,7 @@ _Also contributed research to **Acre** (Bitcoin liquid staking) and the **Bitcoi
 - Improved the onboarding and wallet recovery experience for the SelfKey wallet by adding Seed Phrase and Private Key login options, targeting issues specific to blockchain users.
 - Worked on products like SelfKey Digital Identity Wallet, SelfKey Staking, SelfKey Marketplace, and KeyFi DeFi Aggregator.
 
-### Consensys / Alethio — Head of Design
+### Consensys / Alethio · Head of Design
 **Jul 2018 – May 2020**
 
 - Conducted User Research Interviews across both explorative and generative phases, using qualitative and quantitative methods.
