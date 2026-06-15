@@ -1,48 +1,45 @@
 # Task Template
 
-Every issue in this repo follows the same structure, so the board stays consistent
-and any issue can be understood with no prior context. The GitHub "New issue" form
-pre-fills these sections automatically; this document is the reference for what each
-section means and how to fill it in.
+Every issue on the personal brand board follows this structure, so the board stays
+consistent and any issue can be understood with no prior context. The GitHub "New issue"
+form pre-fills these sections automatically (see
+[.github/ISSUE_TEMPLATE/task.md](.github/ISSUE_TEMPLATE/task.md)); this document explains
+what each section means.
 
-## Problem identified
-What is wrong, missing, or inconsistent — and where it shows up (which asset: resume,
-website, LinkedIn, or GitHub). Describe the current state specifically enough that
-someone with no context understands the gap.
+## What's broken or missing
+One to three sentences. Specific asset, specific symptom. No preamble — start with the
+problem. Then record:
 
-## Proposed solution(s)
-One or more concrete ways to fix it, written as bullets. If there is a choice to make,
-list the options and note any tradeoffs. This is the "how", not just the "what".
+- **Asset:** which asset it affects — `resume-uxr` | `resume-pm` | `website` | `linkedin` | `github`
+- **Spotted in:** where you noticed it — e.g. "recruiter screen", "own review", "audit"
 
-## Impact
-Why it matters: who is affected (for example, recruiters reading the profile) and what
-improves once it is resolved. Used to decide priority.
-
-## Type
-Exactly one of the following:
-
-- **UX** — How someone navigates or understands an asset (ordering, structure, information architecture).
-- **UI** — Visual and layout work (design, branding, typography, formatting).
-- **Content** — Copy, wording, facts, and text consistency across assets.
-- **Research** — Underlying research or validation work.
-- **Ops** — Process, tooling, repository and board setup, automation.
-- **Technical** — Hosting, infrastructure, code, deployment.
-
----
-
-## Copy-paste skeleton
-
-```markdown
-## Problem identified
-
-
-## Proposed solution(s)
--
--
+## Fix options
+Bullet each option. Flag tradeoffs inline if there is a real choice. If there is only one
+obvious fix, a single bullet is fine.
 
 ## Impact
+Who notices this and what improves once it is resolved. One or two sentences max.
 
+## Done when
+The one or two conditions that close the issue. Be concrete enough that you can verify it
+in 30 seconds. Written as checkboxes.
 
 ## Type
+Exactly one of:
 
-```
+- **Content** — copy, wording, factual accuracy, cross-asset consistency
+- **Structure** — ordering, hierarchy, information architecture (what's present and where)
+- **Visual** — formatting, layout, typography, design tokens
+- **Research** — underlying research, validation, or sourcing work
+- **Ops** — process, tooling, board setup, automation
+- **Technical** — hosting, code, deployment, infrastructure
+
+## Priority
+Exactly one of:
+
+- **High** — blocks shipping or actively hurts job search
+- **Medium** — important but not urgent
+- **Low** — nice to have, low cost to defer
+
+## Status note *(optional)*
+Blocked on something, or waiting for input? Flag it here.
